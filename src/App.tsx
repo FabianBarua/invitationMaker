@@ -24,7 +24,7 @@ function App() {
     toast.success('Copiado al portapapeles');
   };
   return (
-    <div className="  w-dvw h-dvh  p-5 bg-gray-950 flex  flex-col  items-center">
+    <div className=" text-white  w-dvw h-dvh  p-5 bg-gray-950 flex  flex-col  items-center">
       <Toaster position="bottom-center" />
       <form className=" w-full h-full flex flex-col gap-3" onSubmit={handleSubmit}>
         <div className=" flex w-full gap-3">
@@ -46,8 +46,8 @@ function App() {
           id="text"
         ></textarea>
         <div className=" justify-center w-full gap-3 flex">
-          <button className=" w-full bg-gray-900" type="submit">Generar</button>
-          <button className=" w-full bg-gray-900"  type="button"  onClick={handleCopy}>Copiar todo</button>
+          <button className=" p-4 rounded-xl w-full bg-gray-900" type="submit">Generar</button>
+          <button className=" p-4 rounded-xl w-full bg-gray-900"  type="button"  onClick={handleCopy}>Copiar todo</button>
         </div>
       <textarea
           className=" w-full  bg-gray-900 p-3  rounded-xl min-h-56 h-40  2"
