@@ -13,7 +13,7 @@ function App() {
     const text = e.target.textArea.value.split("\n");
     const allUrlsGenerated = text
       .map(
-        (t: string) => `${t}:\n${url}?v=${version}&i=${encodeURIComponent(t)}`
+        (t: string) => `${t}:\n${url}?v=${version}&i=${encodeURIComponent(t)}&`
       )
       .join("\n");
     setGenerated(allUrlsGenerated);
