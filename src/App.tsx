@@ -13,7 +13,7 @@ function App() {
     const text = e.target.textArea.value.split("\n");
     const allUrlsGenerated = text
       .map(
-        (t: string) => `${t}:\n${url}?v=${version}&i=${encodeURIComponent(t)}&`
+        (t: string) => `*¡Te invitamos a nuestra boda!* ✨\n\n${t}:\n${url}?v=${version}&i=${encodeURIComponent(t)}&\n\nEsperamos que puedas acompañarnos en nuestro día especial💕`
       )
       .join("\n");
     setGenerated(allUrlsGenerated);
