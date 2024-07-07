@@ -36,8 +36,8 @@ function App() {
             id="url"
           />
           <select name="version" className=" bg-gray-900 p-3 rounded-xl" id="version">
-            <option value="v1">Fabian</option>
             <option value="v2">Andrea</option>
+            <option value="v1">Fabian</option>
           </select>
         </div>
         <textarea
